@@ -1,5 +1,11 @@
 THE PBC LIBARY
 
+This is a copy of the repository at http://repo.or.cz/r/pbc.git of the PBC library project (see https://crypto.stanford.edu/pbc). A single commit is added that adds some files that JPBC (see http://gas.dia.unisa.it/projects/jpbc) needs for it to use the PBC wrapper, as well as an Android.mk file for compiling to ARM for Android.
+
+Used in https://github.com/sietseringers/android-pbc.
+
+The original README follows:
+
 The PBC (Pairing-Based Crypto) library is a C library providing low-level
 routines for pairing-based cryptosystems. It provides an interface for
 cyclic groups and a bilinear pairing defined on them that are thought to
